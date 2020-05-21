@@ -1,0 +1,21 @@
+{
+    "name": "lucas/baseprojeto",
+    "description": "Template E-commerce usando Slim v3",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Moreira",
+            "email": "lucasmoreiira.v@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "3.*"
+    },
+
+    "autoload": {
+        
+        "psr-4": {"App\\": "App/", "Config\\": "Config/", "Helpers\\": "Helpers"}
+    } 
+}
